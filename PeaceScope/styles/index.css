@@ -6,10 +6,6 @@
     text-decoration: none;
 }
 
-body {
-    background: green;
-
-}
 nav {
     position: fixed;
     right: 0;
@@ -38,8 +34,29 @@ nav {
     transition: all .5s ease;
 }
 
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
+
 .peacescope {
     font-size: 30px;
     font-weight: 700;
     color: white;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245deg, #4D9559 0%, #38703D 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
 }
