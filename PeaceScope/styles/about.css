@@ -81,7 +81,7 @@ section {
     padding-top: 40vh;
     padding-bottom: 10vh;
     font-family: Poppins;
-    margin-right: 50vw;
+    margin-right: 12vw;
 }
 
 section p {
@@ -138,7 +138,28 @@ section h2 {
 
 span {
     padding-top: 15px;
+    text-decoration: none;
+    font-family: Poppins;
+}
+.description {
+    padding-top: 15px;
     text-decoration: underline;
     font-family: Poppins;
 }
+
+.img1 {
+    position: relative;
+    top: 30vh;
+    left: -85vh;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+#about-img {
+    width: 600px;
+    height: 600px;
+    padding-bottom: 20vh;
+}
+
 
