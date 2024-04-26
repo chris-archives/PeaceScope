@@ -58,31 +58,87 @@ nav {
 body {
     background:
     linear-gradient(245deg, #4D9559 0%, #38703D 28.53%, #133917 75.52%);
+    overflow-y: hidden;
+}
+
+
+main {
+    display:flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    margin-bottom:25vw;
+
 }
 section {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     height: 100vh;
-    width: 100%;
     color:white;
-    font-family: Poppins;
     padding-left: 10vw;
     padding-right: 30vw;
     padding-top: 40vh;
     padding-bottom: 10vh;
-    flex:none;
-
+    font-family: Poppins;
+    margin-right: 50vw;
 }
+
 section p {
     margin-top: 30px;
     line-height: 30px;
     width: 85%;
     text-align: justify;
+    width:600px;
 }
 
-section h1, h2 {
+section h1 {
     font-size: 30px;
     font-family: Lugrasimo
 }
+
+section h2 {
+    font-family: Poppins;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.register:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(10px); 
+}
+
+.register {
+    display: inline-block;
+    color: white;
+    border: 1px solid transparent;
+    background: #4D9559;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .5s ease;
+    width: 150px;
+}
+
+.approach {
+        position: fixed;
+        bottom: 45px; /* Adjust the distance from the bottom */
+        left: 50%; /* Adjust the horizontal position if needed */
+        transform: translateX(-50%); /* Center the element horizontally */
+}
+
+.join {
+    padding-right: none;
+    margin-right: none;
+}
+
+span {
+    padding-top: 15px;
+    text-decoration: underline;
+    font-family: Poppins;
+}
+
