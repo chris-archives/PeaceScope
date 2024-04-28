@@ -7,6 +7,11 @@
     text-decoration: none;
 }
 
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 /* Navigation */
 nav {
     position: fixed;
