@@ -55,3 +55,46 @@ nav {
     color: white;
     margin-top: -6px;
 }
+
+/* Background Image */
+#background {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1000;
+}
+
+#image-credit {
+    z-index: 1000;
+    position: relative;
+    color: white;
+    font-family: Poppins;
+    top: -5vh;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+}
+
+.credit {
+    font-style: italic;
+}
+
+#scroll-down {
+    height: 10vh;
+    width: 2vw;
+    z-index: 100;
+    border: 20px solid white;
+    position: relative;
+    top: -23vh;
+    left: 50vw;
+    border-radius: 50px;
+    opacity: 0.6;
+}
+
+
