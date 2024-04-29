@@ -89,12 +89,31 @@ nav {
     height: 10vh;
     width: 2vw;
     z-index: 100;
-    border: 20px solid white;
+    border: 20px solid black;
     position: relative;
     top: -23vh;
     left: 50vw;
     border-radius: 50px;
     opacity: 0.6;
 }
+
+#point::before {
+    position: relative;
+    transform: translate(-50%,-50%) rotate(45deg);
+    left: 50.7vw;
+    top:-30vh;
+    border-radius: 100px;
+    opacity: 0.6;
+    z-index: 100;
+    border: 20px solid white;
+    height: 5px;
+    width: 5px;
+    content: " ";
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: transparent;
+
+}
+
 
 
