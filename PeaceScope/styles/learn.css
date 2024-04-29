@@ -8,7 +8,9 @@
 }
 
 body {
-    background: linear-gradient()
+    overflow-x: hidden;
+    background:
+    linear-gradient(rgba(35, 34, 35, 0.638),rgb(0, 0, 0));
 }
 
 /* Navigation */
@@ -137,4 +139,19 @@ nav {
     left: -2vw;
     width: 10vw;
     padding-top: 0.01vh;
+}
+
+/* Main */
+.intro {
+    z-index: 1000;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-family: Poppins;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.intro span {
+    font-style: italic;
 }
