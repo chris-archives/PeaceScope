@@ -7,13 +7,13 @@
     text-decoration: none;
 }
 
+/* General Styles */
 body {
     overflow-x: hidden;
     background: black;
-
 }
 
-/* Navigation */
+/* Navigation Styles */
 nav {
     position: fixed;
     right: 0;
@@ -62,7 +62,7 @@ nav {
     margin-top: -6px;
 }
 
-/* Background Image */
+/* Background Image Styles */
 #background {
     width: 100vw;
     height: 100vh;
@@ -91,14 +91,13 @@ nav {
     font-style: italic;
 }
 
-/* Scroll Bar Animation */
+/* Scroll Bar Animation Styles */
 .scroll-downs {
     position: relative;
     top: -25vh;
     right: 0;
     margin: auto;
     z-index: 1000;
-    
     width :34px;
     height: 55px;
 }
@@ -141,7 +140,7 @@ nav {
     padding-top: 0.01vh;
 }
 
-/* Intro */
+/* Intro Styles */
 .intro {
     z-index: 1000;
     margin-left: 20vw;
@@ -151,11 +150,12 @@ nav {
     text-align: center;
     color: white;
 }
+
 .intro span {
     font-style: italic;
 }
 
-/* Main */
+/* Main Styles */
 .soulshot {
     display: flex;
     margin-top: 12vh;
@@ -233,6 +233,7 @@ nav {
     color: white;
 }
 
+/* Footer Styles */
 footer p {
     color: white;
     font-size: 16px;
@@ -247,5 +248,3 @@ footer {
     margin-bottom: 8vh;
     margin-top: -5vw;
 }
-
-
