@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 9%;
+    background: transparent;
+    flex-direction: row;
+}
+
+.navlist {
+    display: flex;
+}
+
+.navlist a {
+    font-family: Poppins;
+    color: white;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+.navlist a:hover {
+    border-bottom: 2px solid white;
+}
+
+#menu-icon {
+    color: white;
+    font-size: 35px;
+    z-index: 100001;
+    cursor: pointer;
+    display: none;
+}
+
+.peacescope {
+    font-family: Lugrasimo;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: -6px;
+}
+
+#hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(245deg, #4D9559 0%, #38703D 28.53%, #133917 75.52%);
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+    padding: 0 19%;
+}
+
+.hero-sec {
+    width: 400px;
+    color: white;
+}
+
+.hero-sec h2 {
+    font-family: Poppins;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.hero-sec h3 {
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.hero-sec h1 {
+    padding-top: 8px;
+    font-family: Lugrasimo;
+    font-size: 65px;
+    line-height: 1;
+    margin: 0 0 45px;
+}
+
+.hero-sec p {
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    width: 480px;
+}
+
+.hero-img img {
+    width: 650px;
+    height: auto;
+    margin-top: 40px;
+    padding-left: 40px;
+}
+
+.hero-sec a {
+    display: inline-block;
+    color: white;
+    border: 1px solid transparent;
+    background: #4D9559;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+
+.hero-sec a:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(10px); 
+}
+
+.hero-sec a.button {
+    background: transparent;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.side-icons {
+    position: fixed;
+    top: 50%;
+    padding: 0 9%;
+    transform: translateY(-50%);
+}
+
+.side-icons i {
+    display: block;
+    margin: 25px 0;
+    font-size: 25px;
+    color: white;
+    transition: all .5 ease;
+}
+
+.side-icons i:hover {
+    color: #4D9559;
+    transform: translateY(-5px);
+}
+
+
